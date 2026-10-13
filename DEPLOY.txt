@@ -1,0 +1,18 @@
+Houssam Portfolio — GitHub Pages deployment
+
+1. Create a PUBLIC GitHub repository named:
+   HouusamGE19.github.io
+
+2. Put index.html and .nojekyll at the repository root.
+
+3. Push to the repository's default branch.
+
+4. In GitHub:
+   Settings -> Pages
+   Source: Deploy from a branch
+   Branch: your default branch (master or main)
+   Folder: /(root)
+   Save
+
+5. Your site will be:
+   https://houusamge19.github.io/
