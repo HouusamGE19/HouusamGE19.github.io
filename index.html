@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#07110f" />
-  <meta name="description" content="Houssam Elmouqaddam — Full-Stack Software Engineer building scalable web applications and backend systems with Java, Spring Boot, Angular, Kafka and microservices." />
-  <title>Houssam Elmouqaddam — Full-Stack Software Engineer</title>
+  <meta name="description" content="Houssam Elmouqaddam — Java Full-Stack Software Engineer with DevOps experience across Spring Boot, Angular, Kafka, Docker, Kubernetes, GitOps, observability and cloud delivery." />
+  <title>Houssam Elmouqaddam — Java Full-Stack & DevOps Engineer</title>
   <style>:root{
   --bg:#06100f;
   --bg2:#071513;
@@ -550,6 +550,26 @@ opacity:.78;filter:blur(.15px)}
 body{
   position:relative;
 }
+
+/* V2.8 DevOps positioning + about text layout fix */
+.about-copy p .about-text{display:block;min-width:0;color:#b8cac5}
+.about-copy p .about-text b{display:inline;color:var(--green);font-weight:700}
+.strength-grid{align-content:start}
+@media (max-width:1100px) and (min-width:721px){.strength-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Hero DevOps/Cloud card */
+.wg-devops strong{font-size:13px}
+.wg-devops small{letter-spacing:.03em;white-space:nowrap}
+@media(max-width:720px){
+  .wg-devops strong{font-size:9px}
+  .wg-devops small{font-size:6.5px}
+}
+
+
+.contact-fallback{margin-top:12px!important;font-size:10px!important;color:#6f8f86!important}
+.contact-fallback a{color:var(--green);text-decoration:none;border-bottom:1px dotted rgba(38,240,189,.35)}
+.contact-fallback a:hover{border-bottom-color:var(--green)}
+
 </style>
 </head>
 <body>
@@ -577,14 +597,14 @@ body{
         <div class="terminal-line"><span class="ln">01</span><span class="prompt">&gt;</span><span class="command">whoami</span></div>
         <div class="terminal-line name-line"><span class="ln">02</span><h1>HOUSSAM ELMOUQADDAM</h1></div>
         <div class="terminal-line"><span class="ln">03</span><span class="prompt">&gt;</span><span class="command">role</span></div>
-        <div class="terminal-line role-line"><span class="ln">04</span><p>Full-Stack Software Engineer<span class="cursor" aria-hidden="true"></span></p></div>
+        <div class="terminal-line role-line"><span class="ln">04</span><p>Java Full-Stack Engineer + DevOps<span class="cursor" aria-hidden="true"></span></p></div>
         <div class="terminal-line spacer"><span class="ln">05</span></div>
         <div class="terminal-line"><span class="ln">06</span><span class="prompt">&gt;</span><span class="command">about</span></div>
-        <div class="terminal-line body-line"><span class="ln">07</span><p>Building scalable web applications and backend systems</p></div>
-        <div class="terminal-line body-line"><span class="ln">08</span><p>with Java, Spring Boot, Angular, and microservices.</p></div>
+        <div class="terminal-line body-line"><span class="ln">07</span><p>Building scalable applications, distributed services and delivery pipelines</p></div>
+        <div class="terminal-line body-line"><span class="ln">08</span><p>with Java, Spring Boot, Angular, Kafka, Docker, Kubernetes and GitOps.</p></div>
         <div class="terminal-line spacer"><span class="ln">09</span></div>
         <div class="terminal-line"><span class="ln">10</span><span class="prompt">&gt;</span><span class="command">status</span></div>
-        <div class="terminal-line status-line"><span class="ln">11</span><p><i></i>Open to remote opportunities worldwide</p></div>
+        <div class="terminal-line status-line"><span class="ln">11</span><p><i></i>Open to software engineering opportunities and collaborative projects</p></div>
         <div class="terminal-line spacer"><span class="ln">12</span></div>
         <div class="terminal-line prompt-line"><span class="ln">13</span><span class="prompt">&gt;</span><span class="terminal-caret">_</span></div>
 
@@ -604,10 +624,10 @@ body{
           <article class="wg-card wg-java" aria-hidden="true"><span class="wg-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 48h20c5 0 8-2 8-5 0-4-5-5-11-6-8-1-15-3-15-8 0-4 4-7 10-9-3 3-2 5 4 7 8 2 17 3 17 11 0 7-6 12-17 12H22z" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 11c6 5-5 8 0 14M42 8c7 6-6 10 1 17" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M20 52c6 3 18 4 28 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><div><strong>Java</strong><small>v17+</small></div><b>[01]</b></article>
           <article class="wg-card wg-spring" aria-hidden="true"><span class="wg-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M52 13c-16 1-27 8-34 21-4 7-4 15-1 22 8 0 15-1 22-5 13-7 20-18 21-34-3-2-5-3-8-4z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M23 38c7 1 13-1 19-6M22 45c10 1 19-2 26-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><div><strong>Spring Boot</strong><small>v3+</small></div><b>[02]</b></article>
           <article class="wg-card wg-angular" aria-hidden="true"><span class="wg-icon angular-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6 52 13l-3 31-17 10-17-10-3-31z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 16 21 42h6l2-5h10l2 5h6L32 16zm0 10 4 8h-8l4-8z" fill="currentColor"/></svg></span><div><strong>Angular</strong><small>TypeScript</small></div><b>[03]</b></article>
-          <article class="wg-card wg-kafka" aria-hidden="true"><span class="wg-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="12" r="4" fill="currentColor"/><circle cx="32" cy="32" r="4" fill="currentColor"/><circle cx="32" cy="52" r="4" fill="currentColor"/><circle cx="14" cy="22" r="4" fill="currentColor"/><circle cx="50" cy="22" r="4" fill="currentColor"/><circle cx="14" cy="42" r="4" fill="currentColor"/><circle cx="50" cy="42" r="4" fill="currentColor"/><path d="M32 16v12M32 36v12M18 23h10M36 23h10M18 41h10M36 41h10M18 25l10 5M46 25l-10 5M18 39l10-5M46 39l-10-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><div><strong>Kafka</strong><small>events</small></div><b>[04]</b></article>
+          <article class="wg-card wg-kafka wg-devops" aria-hidden="true"><span class="wg-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M20 45h28a10 10 0 0 0 1-20 15 15 0 0 0-29-3 12 12 0 0 0 0 23Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 51h30M24 56h18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><div><strong>DevOps &amp; Cloud</strong><small>Docker · K8s · AWS</small></div><b>[04]</b></article>
           <article class="wg-card wg-micro" aria-hidden="true"><span class="wg-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 10 48 19v18L32 46 16 37V19z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 10v18m16-9-16 9-16-9m16 9v18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><strong>Microservices</strong><small>REST / SSE</small></div><b>[05]</b></article>
 
-          <div class="wg-chip wg-remote" aria-hidden="true">REMOTE · WORLDWIDE</div>
+          <div class="wg-chip wg-remote" aria-hidden="true">SOFTWARE · WORLDWIDE</div>
           <div class="wg-chip wg-live" aria-hidden="true"><i></i> DEPTH_MESH_ACTIVE</div>
           <div class="wg-hint" aria-hidden="true">MOVE CURSOR → ROTATE DEPTH MESH</div>
         </div>
@@ -615,7 +635,7 @@ body{
 
       <div class="hero-meta">
         <span>◉ Available Worldwide</span>
-        <span>▥ Open to Opportunities</span>
+        <span>▥ Full-Stack · Backend · DevOps</span>
         <span>&gt;_ Let’s Build Something Great</span>
       </div>
     </section>
@@ -631,15 +651,18 @@ body{
       <div class="about-grid">
         <div class="about-copy" data-reveal>
           <div class="cmd-heading"><span class="ln">01</span><span>&gt;</span><strong>cat about.md</strong></div>
-          <p><span class="ln">02</span>I’m a Full-Stack Software Engineer focused on building robust, scalable software systems.</p>
-          <p><span class="ln">03</span>My professional work spans enterprise e-commerce, REST APIs, microservices, real-time communication and production support.</p>
-          <p><span class="ln">04</span>I work across <b>backend systems</b>, <b>full-stack development</b>, and <b>event-driven architecture</b> using Java, Spring Boot, Angular, Kafka, SSE and modern delivery tooling.</p>
+          <p><span class="ln">02</span><span class="about-text">I’m a Java Full-Stack Software Engineer focused on building robust, scalable software systems.</span></p>
+          <p><span class="ln">03</span><span class="about-text">My professional work spans enterprise e-commerce, REST APIs, microservices, real-time communication and production support.</span></p>
+          <p><span class="ln">04</span><span class="about-text">I also build <b>CI/CD and GitOps delivery workflows</b> with Docker, Kubernetes, GitHub Actions, Argo CD, Trivy, Prometheus, Grafana and AWS.</span></p>
+          <p><span class="ln">05</span><span class="about-text">My core focus connects <b>backend systems</b>, <b>full-stack development</b>, <b>event-driven architecture</b> and <b>DevOps automation</b>.</span></p>
         </div>
         <div class="strength-grid">
           <article class="module-card" data-reveal><small>01</small><span class="module-icon">▤</span><h3>Backend Systems</h3><p>REST APIs, business logic, microservices and secure Spring applications.</p></article>
           <article class="module-card" data-reveal><small>02</small><span class="module-icon">&lt;/&gt;</span><h3>Full-Stack Delivery</h3><p>Angular interfaces backed by maintainable Java services and relational data.</p></article>
           <article class="module-card" data-reveal><small>03</small><span class="module-icon">⌘</span><h3>Event-Driven Systems</h3><p>Kafka-based asynchronous flows and real-time updates with Server-Sent Events.</p></article>
-          <article class="module-card" data-reveal><small>04</small><span class="module-icon">▥</span><h3>Performance Mindset</h3><p>k6 load and stress testing with focus on latency, throughput and stability.</p></article>
+          <article class="module-card" data-reveal><small>04</small><span class="module-icon">⚙</span><h3>DevOps & GitOps</h3><p>CI/CD, container delivery, Kubernetes and Argo CD workflows with security gates.</p></article>
+          <article class="module-card" data-reveal><small>05</small><span class="module-icon">◉</span><h3>Observability & Cloud</h3><p>Prometheus, Grafana and AWS-based deployment with operational visibility in mind.</p></article>
+          <article class="module-card" data-reveal><small>06</small><span class="module-icon">▥</span><h3>Performance Mindset</h3><p>k6 load and stress testing with focus on latency, throughput and stability.</p></article>
         </div>
       </div>
     </section>
@@ -647,44 +670,80 @@ body{
     <section class="terminal-window section-block" id="projects">
       <div class="window-bar compact">
         <div class="window-dots"><span></span><span></span><span></span></div>
-        <span class="section-title">FEATURED_PROJECTS</span>
-        <span class="section-path">~/projects</span>
+        <span class="section-title">SELECTED_PERSONAL_PROJECTS</span>
+        <span class="section-path">~/projects/public</span>
       </div>
-      <div class="projects-grid">
+      <div class="projects-grid personal-projects">
         <article class="project-card featured" data-reveal>
-          <div class="project-head"><span>01</span><b><i></i> Featured</b></div>
+          <div class="project-head"><span>01</span><b><i></i> Distributed Systems</b></div>
           <div class="project-visual ecommerce-visual">
-            <div class="mini-terminal"><span>&gt; commerce.service</span><span>status: healthy</span><span>api: ready</span></div>
-            <div class="diagram-node">API</div><div class="diagram-node">SAP</div><div class="diagram-node">DB</div>
+            <div class="mini-terminal"><span>&gt; flowcart.events</span><span>order: confirmed</span><span>sse: connected</span></div>
+            <div class="diagram-node">API</div><div class="diagram-node">KAFKA</div><div class="diagram-node">DB</div>
           </div>
-          <h3>Enterprise E-commerce Platform</h3>
-          <p>Enterprise e-commerce work using Java, Spring Boot and SAP Commerce Cloud, including REST services, integrations, real-time communication and production support.</p>
-          <div class="tags"><span>Java</span><span>Spring Boot</span><span>SAP Commerce</span><span>Angular</span></div>
-          <a href="#experience">&gt; View case study →</a>
+          <h3>FlowCart</h3>
+          <p>Event-driven e-commerce platform demonstrating distributed workflows, Kafka choreography, Saga-style compensation, transactional outbox, SSE tracking and resilient Java services.</p>
+          <div class="tags"><span>Java 21</span><span>Spring Boot</span><span>Kafka</span><span>Angular</span><span>PostgreSQL</span></div>
+          <a href="https://github.com/HouusamGE19/Flowcart" target="_blank" rel="noopener noreferrer">&gt; View on GitHub →</a>
         </article>
 
         <article class="project-card" data-reveal>
-          <div class="project-head"><span>02</span></div>
+          <div class="project-head"><span>02</span><b><i></i> Database Engineering</b></div>
           <div class="project-visual audit-visual">
             <div class="dashboard-row"><i></i><i></i><i></i><i></i></div>
             <div class="dashboard-table"><span></span><span></span><span></span><span></span></div>
           </div>
-          <h3>Audit Management Platform</h3>
-          <p>Full-stack information-security audit management application built with Spring Boot, Angular, REST services and a relational database.</p>
-          <div class="tags"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>SQL</span></div>
-          <a href="#contact">&gt; Discuss project →</a>
+          <h3>DB-Lab</h3>
+          <p>PostgreSQL performance playground for studying EXPLAIN ANALYZE, query plans, B-tree and GIN indexes, Redis caching and measurable query-performance improvements.</p>
+          <div class="tags"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Redis</span><span>Angular</span></div>
+          <a href="https://github.com/HouusamGE19/DB-Lab" target="_blank" rel="noopener noreferrer">&gt; View on GitHub →</a>
         </article>
 
         <article class="project-card" data-reveal>
-          <div class="project-head"><span>03</span></div>
+          <div class="project-head"><span>03</span><b><i></i> DevOps / GitOps</b></div>
           <div class="project-visual cyber-visual">
-            <div class="shield">⌾</div>
-            <div class="cyber-log"><span>&gt; url.scan</span><span>[+] checks loaded</span><span>[+] report ready</span></div>
+            <div class="shield">CI</div>
+            <div class="cyber-log"><span>&gt; pipeline.deploy</span><span>[+] trivy passed</span><span>[+] argocd synced</span></div>
           </div>
-          <h3>Cybersecurity Automation Toolkit</h3>
-          <p>Automation work for penetration-testing support and URL security analysis using Linux and Bash scripting.</p>
-          <div class="tags"><span>Bash</span><span>Linux</span><span>Security</span><span>Automation</span></div>
-          <a href="#contact">&gt; Discuss project →</a>
+          <h3>CI/CD Showcase</h3>
+          <p>End-to-end delivery platform with GitHub Actions, Docker, GHCR, Trivy, Kubernetes/k3s, Argo CD GitOps, Prometheus, Grafana and AWS EC2.</p>
+          <div class="tags"><span>GitHub Actions</span><span>Docker</span><span>Kubernetes</span><span>Argo CD</span><span>AWS</span></div>
+          <a href="https://github.com/HouusamGE19/CI-CD-Showcase" target="_blank" rel="noopener noreferrer">&gt; View on GitHub →</a>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-head"><span>04</span><b><i></i> Full-Stack Utility</b></div>
+          <div class="project-visual ecommerce-visual">
+            <div class="mini-terminal"><span>&gt; download.queue</span><span>sse: live</span><span>ffmpeg: ready</span></div>
+            <div class="diagram-node">SSE</div><div class="diagram-node">yt-dlp</div><div class="diagram-node">FFmpeg</div>
+          </div>
+          <h3>Download Studio</h3>
+          <p>Local-first download manager combining Spring Boot and Angular with live SSE progress, process orchestration, persistent history and portable Docker packaging.</p>
+          <div class="tags"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>SSE</span><span>Docker</span></div>
+          <a href="https://github.com/HouusamGE19/Download-studio" target="_blank" rel="noopener noreferrer">&gt; View on GitHub →</a>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-head"><span>05</span><b><i></i> AI-Assisted Engineering</b></div>
+          <div class="project-visual audit-visual">
+            <div class="dashboard-row"><i></i><i></i><i></i><i></i></div>
+            <div class="dashboard-table"><span></span><span></span><span></span><span></span></div>
+          </div>
+          <h3>HED Space Desktop</h3>
+          <p>AI-assisted desktop media application used to explore and ship software outside my primary Java stack with Tauri, Rust, SQLite and mpv.</p>
+          <div class="tags"><span>Tauri</span><span>Rust</span><span>SQLite</span><span>mpv</span><span>AI-Assisted</span></div>
+          <a href="https://github.com/HouusamGE19/HED-Space-Desktop" target="_blank" rel="noopener noreferrer">&gt; View on GitHub →</a>
+        </article>
+
+        <article class="project-card" data-reveal style="grid-column:auto">
+          <div class="project-head"><span>06</span><b><i></i> Engineering Methodology</b></div>
+          <div class="project-visual cyber-visual">
+            <div class="shield">&gt;_</div>
+            <div class="cyber-log"><span>&gt; agent.workflow</span><span>[+] verify diff</span><span>[+] handoff ready</span></div>
+          </div>
+          <h3>AI Engineering Playbook</h3>
+          <p>Practical workflows, prompt patterns, repository guidance and case studies for using Codex and Hermes as disciplined software-engineering collaborators.</p>
+          <div class="tags"><span>Codex</span><span>Hermes</span><span>AI Agents</span><span>Prompts</span><span>Software Engineering</span></div>
+          <a href="https://github.com/HouusamGE19/AI-Engineering-Playbook" target="_blank" rel="noopener noreferrer">&gt; View on GitHub →</a>
         </article>
       </div>
     </section>
@@ -697,7 +756,7 @@ body{
       </div>
       <div class="timeline">
         <article class="timeline-item current" data-reveal>
-          <div class="time">SEP 2024 — NOW</div><div class="dot"></div>
+          <div class="time">SEP 2024 — JUL 2026</div><div class="dot"></div>
           <div class="timeline-card"><div class="timeline-top"><h3>Java Full-Stack Developer · SAP Commerce Cloud Consultant</h3><span>Current</span></div><strong>Omniconsulting — Saint-Gobain Sekurit</strong>
             <ul><li>Develop and maintain enterprise e-commerce solutions with Java, Spring Boot and SAP Commerce Cloud.</li><li>Design REST APIs, backend services, business logic and integrations in a microservices-oriented environment.</li><li>Work with SSE, k6 performance testing, Angular teams, CI/CD and production support.</li></ul>
           </div>
@@ -726,7 +785,7 @@ body{
         <article class="stack-card" data-reveal><h3>▤ Backend</h3><div><span>Java</span><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>REST APIs</span><span>Microservices</span><span>SAP Commerce</span></div></article>
         <article class="stack-card" data-reveal><h3>▣ Frontend</h3><div><span>Angular</span><span>TypeScript</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div></article>
         <article class="stack-card" data-reveal><h3>⌘ Events / Realtime</h3><div><span>Kafka</span><span>SSE</span><span>Event-driven</span><span>k6</span><span>Load Testing</span></div></article>
-        <article class="stack-card" data-reveal><h3>⚙ DevOps & Tools</h3><div><span>Git</span><span>GitLab</span><span>Jenkins</span><span>Docker</span><span>Kubernetes</span><span>Linux</span><span>Bash</span><span>MySQL</span></div></article>
+        <article class="stack-card" data-reveal><h3>⚙ DevOps / Cloud / Observability</h3><div><span>Git</span><span>GitHub Actions</span><span>Docker</span><span>GHCR</span><span>Trivy</span><span>Kubernetes</span><span>k3s</span><span>Argo CD</span><span>Prometheus</span><span>Grafana</span><span>AWS EC2</span><span>Linux</span><span>Bash</span></div></article>
       </div>
     </section>
 
@@ -739,15 +798,16 @@ body{
       <div class="contact-grid">
         <div data-reveal>
           <h2>Let’s Build<br>Reliable Systems Together.</h2>
-          <p>I’m open to discussing remote Full-Stack, Java backend and software engineering opportunities worldwide.</p>
+          <p>I’m open to discussing Java Full-Stack, backend, DevOps-oriented and software engineering opportunities worldwide.</p>
           <div class="contact-actions">
-            <a class="btn btn-primary" href="mailto:houssamed100@gmail.com">&gt; Send a Message →</a>
-            <a class="btn btn-secondary" href="mailto:houssamed100@gmail.com">✉ houssamed100@gmail.com</a>
+            <a class="btn btn-primary" href="https://www.linkedin.com/search/results/people/?keywords=Houssam%20Elmouqaddam%20Omniconsulting" target="_blank" rel="noopener noreferrer">&gt; Message me on LinkedIn →</a>
+            <a class="btn btn-secondary" href="https://mail.google.com/mail/?view=cm&fs=1&to=houssamed100%40gmail.com&su=Portfolio+contact+%E2%80%94+Houssam+Elmouqaddam&body=Hi+Houssam%2C%0A%0AI+found+your+portfolio+and+would+like+to+get+in+touch.%0A%0A" target="_blank" rel="noopener noreferrer">✉ Open Gmail →</a>
           </div>
+          <p class="contact-fallback">Email fallback: <a href="mailto:houssamed100@gmail.com">houssamed100@gmail.com</a></p>
         </div>
         <div class="world-card" data-reveal>
           <div class="world-dots" aria-hidden="true"></div>
-          <div class="availability-card"><i></i><span>Open to<br><b>Remote Opportunities</b><br>Worldwide</span></div>
+          <div class="availability-card"><i></i><span>Open to<br><b>Opportunities</b><br>Worldwide</span></div>
         </div>
       </div>
     </section>
